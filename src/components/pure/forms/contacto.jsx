@@ -10,7 +10,7 @@ class Contacto extends Component {
                 <h3>Nombre: {this.props.name}</h3>
                 <h3>Apellido: {this.props.lastname}</h3>
                 <h3>Email: {this.props.email}</h3>
-                <h3><ContactoF conected={true}/></h3>
+                <h3><ContactoF conected={false}/></h3>
             </div>
         );
     }
