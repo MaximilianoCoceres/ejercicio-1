@@ -1,5 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+
+//añadimos bootstrap a nuestro proyeto,
+//!siempre encima de los estilos para que pueda utilizarse
+
+import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
